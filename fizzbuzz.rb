@@ -1,8 +1,6 @@
 #! /usr/bin/env ruby
-#include<stdio.h>
-int main(){
-	int i;
-
-	return 0;
-}
-
+	for i in 1..100
+		if (i%3==0) && (i%5==0) then
+			print "FizzBuzz"
+		end
+	end
